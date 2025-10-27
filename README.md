@@ -1,5 +1,5 @@
 ---
-![Thriftique Logo](thriftique/static/logo/thriftique.png?raw=true)  
+![Writers Block](static_github/images/Github_logo_white.png?raw=true)  
 ---
 ### Abstract
 > The name of the app is `Thriftique`. It is a multi-vendor e-commerce platform for restaurants, and
