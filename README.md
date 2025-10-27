@@ -57,6 +57,14 @@
     ```
     pip install django djangorestframework
     ```
+
+    [IMPORTANT]  
+  - if you add or create some `django apps`, you need to register it in the `main/core django` ← the one you created using this command `django-admin startproject <django-project-name>`.
+      
+  - 👇 in the illustration, the added `django apps` is `core`.
+
+    ![INSTALLED_APPS](static_github/images/rest_framework.png?raw=true) 
+
 - **Step 6**: Now, let's set up our folders that we need to use. (`backend`, `frontend`, `.gitignore`, `README`, etc.)
 ---
 ### backend
@@ -83,9 +91,12 @@
     ```
     ... `<appName>` ← is the name of the app ***BUT you can named it base on you as developer***.
   
-    [IMPORTANT]
-      - if you add or create some `django apps`.  
-      ![INSTALLED_APPS](static_github/images/thumbnail.png?raw=true) 
+  [IMPORTANT]  
+  - if you add or create some `django apps`, you need to register it in the `main/core django` ← the one you created using this command `django-admin startproject <django-project-name>`.
+  
+  - 👇 in the illustration, the added `django apps` is `core`.
+
+      ![INSTALLED_APPS](static_github/images/installed_aps.png?raw=true) 
 
 
 - **Step 10**: Now,
