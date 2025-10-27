@@ -2,10 +2,10 @@
 ![Writers Block](static_github/images/Github_logo_white.png?raw=true)  
 ---
 ### Abstract
-> The name of the app is `Thriftique`. It is a multi-vendor e-commerce platform for restaurants, and
-> the idea supports multiple business selling there goods much like of a marketplace of restaurants.
-> It also supports account creation for customers or orderers using the web based e-commerce platform.
-> Overall, it consists of 3 main actors; `admin`, `vendors`, and `customers`.
+> The name of the app is `Writers Block`. It is a role-base web applicatino using Dkango (backend)
+> and React.js (frontend), designed to maange users and content creation with different access levels.
+> The application supports three primary roles: `Admin`, `Manager`, and `Writer`. Each role has specific
+> permissions and capabilitieses:
 
 ---
 ### 🕹️ Tech Stack
