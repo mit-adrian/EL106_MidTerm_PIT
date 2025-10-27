@@ -5,10 +5,10 @@
 
 ---
 ### Abstract
-> The name of the app is `Writers Block`. It is a role-base web applicatino using Dkango (backend)
-> and React.js (frontend), designed to maange users and content creation with different access levels.
+> The name of the app is `Writers Block`. It is a role-base web application using Django (backend)
+> and React.js (frontend), designed to manage users and content creation with different access levels.
 > The application supports three primary roles: `Admin`, `Manager`, and `Writer`. Each role has specific
-> permissions and capabilitieses:
+> permissions and capabilities:
 
 ---
 ### 🕹️ Tech Stack
