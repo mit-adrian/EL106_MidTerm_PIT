@@ -28,6 +28,44 @@
 ---
 ### 📚 Set Up
 
+```
+EL106_MidTerm_PIT/              ← Main project folder (root Git repo)
+├── .git/                       ← Git version control folder
+├── .venv/                      ← Python virtual environment
+├── .gitignore                  ← Global ignore file for backend + frontend
+│
+├── backend/                    ← Django REST Framework backend
+│   ├── manage.py
+│   ├── core/                   ← Django project folder (settings, urls, wsgi)
+│   │   ├── __init__.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   ├── asgi.py
+│   │   └── wsgi.py
+│   │
+│   ├── api/                    ← Django app for user authentication
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── models.py
+│   │   ├── serializers.py
+│   │   ├── views.py
+│   │   ├── urls.py
+│   │   └── tests.py
+│   │
+│   └── db.sqlite3              ← Local database (auto-created)
+│
+└── frontend/                   ← React app (frontend UI)
+|   ├── package.json
+|   ├── public/
+|   └── src/
+|
+└── static_github
+    ├── images                  ← thumbnails, etc.
+    ├── videos                  ← demo videos
+
+```
+
 
 
 ---
