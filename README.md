@@ -135,6 +135,47 @@
     ![DJANGO_SUCCESS](static_github/images/react_success.png?raw=true)
 
 ---
+### (GitHub) for Version Control
+- **Step 16**: To initialized git, we need to do it inside the project root folder.
+    ```
+    cd path/<ProjectName>
+    ```
+    ... then, invoke this command.
+    ```
+    git init
+    ```
+- **Step 2**: Add all the files to git, using this command.
+    ```
+    git add .
+    ```
+- **Step 3**: Commit your changes.
+    ```
+    git commit -m "Your project related notes for changes/progress"
+    ```
+- **Step 4**: Creating a Github repository
+> 1. Go to Github website &rarr; login to your personal Github account
+> 2. Click New Repository &rarr; give it a name (e.g., <MainFolder>)
+> 3. Choose visibility &rarr; between Public and Private  
+>    ``` Public = the repository can be seen or visibile to everyone. ```  
+>    ```Private = exclusive to yu and collaborators/team members you invite to the repo```
+> 4. As is, for initializing README, .gitignore, or license.
+> 5. Click `Create Repository`.  
+![DJANGO_SUCCESS](static_github/images/new_repo.png?raw=true)
+---
+> 7. Link you `local development` to the newly created Github Repository.  
+> 8. Inside the project folder terminal, invoke this following commands:  
+```
+git remote add origin https://github.com/<your Github username>/<git repo name>.git
+```
+```
+git branch -M main
+```
+```
+git push -u origin main
+```
+---
+<p align="center">🥳🥳🥳</p>
+---
 
 ### 🗂️ Folder Structure
 

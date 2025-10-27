@@ -39,13 +39,19 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # Third-party apps
+    'corsheaders',
     'rest_framework',
+
 
     #App custom apps
     'core',
 ]
 
 MIDDLEWARE = [
+    # From third-party apps
+    "corsheaders.middleware.CorsMiddleware",
+
+    #default
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -53,6 +59,15 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+]
+
+
+# Allow all origins (for development only)
+# CORS_ALLOW_ALL_ORIGINS = True
+
+# Or only allow specific frontend URL
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
 ]
 
 ROOT_URLCONF = 'core.urls'
