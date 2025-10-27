@@ -1,5 +1,8 @@
 ---
-![Writers Block](static_github/images/Github_logo_white.png?raw=true)  
+<div align="center">
+  <img src="static_github/images/Github_logo_white.png?raw=true" alt="Writers Block" width="400"/>
+</div>
+
 ---
 ### Abstract
 > The name of the app is `Writers Block`. It is a role-base web applicatino using Dkango (backend)
