@@ -67,7 +67,7 @@
 
 - **Step 6**: Now, let's set up our folders that we need to use. (`backend`, `frontend`, `.gitignore`, `README`, etc.)
 ---
-### backend
+### 📂 backend 
 - **Step 7**: Inside `.venv` root folder make a directory folder named `backend`.
 
     ```
@@ -99,8 +99,41 @@
       ![INSTALLED_APPS](static_github/images/installed_aps.png?raw=true) 
 
 
-- **Step 10**: Now,
+- **Step 10**: Now, that we already set up to run the `backend`. First, we need to run an initial migrations.
+    ```
+    python manage.py migrate
+    ```
+
+- **Step 11**: Run the server, invoke this command inside the `.venv` backend cmd/bash.
+    ```
+    python manage.py runserver
+    ```
+    ![DJANGO_SUCCESS](static_github/images/django_success.png?raw=true) 
   
+---
+### 📂 frontend
+- **Step 12**: Inside `.venv` root folder make a directory folder named `frontend`.
+
+    ```
+    mkdir frontend
+    ```
+
+- **Step 13**: Access backend folder.
+    ```
+    cd frontend
+    ```
+- **Step 14**: Inside the frontend folder, create a new `react` project
+    ```
+    npx create-react-app <frontend>
+    ```
+    ... `<frontend>` ← is the name of main/core django ***BUT you can named it base on you as developer***.
+  
+- **Step 15**: Now, that we already set up the `frontend`. Start the React developement server.
+    ```
+    npm start
+    ```
+    ![DJANGO_SUCCESS](static_github/images/react_success.png?raw=true)
+
 ---
 
 ### 🗂️ Folder Structure
