@@ -227,7 +227,7 @@ EL106_MidTerm_PIT/              ← Main project folder (root Git repo)
 ---
 ### 🎥 Video Url for the App Demonstration
 > Hover and Click the thumbnail 👇👇👇 to get redirected to my youtube channel... 
-[![Watch the video](static_github/images/thumbnail2.png?raw=true)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![Watch the video](static_github/images/thumbnail2.png?raw=true)](https://youtu.be/viwDder5NMQ?si=p3kPbQC_YckOe3LY)
 
 ---
 <p align="center">Thank You ❤️</p>
