@@ -174,7 +174,7 @@ git branch -M main
 git push -u origin main
 ```
 ---
-<p align="center">🥳🥳🥳</p>
+<p align="center">Congratulations your local dev is now connected to online github repo. 🥳</p>
 ---
 
 ### 🗂️ Folder Structure
