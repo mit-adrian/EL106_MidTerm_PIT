@@ -221,7 +221,12 @@ EL106_MidTerm_PIT/              ← Main project folder (root Git repo)
     ├── videos                  ← demo videos
 
 ```
-
+---
+### 📨 GMAIL Setup for Verification
+- **Step 1 & 2**: Go to your personal GMAIL Account then access **[Manage your Google Account]** to follow the images.
+  ![Step1](static_github/images/gmail_setup/gmail%231&2.png?raw=true)
+- **Step 3**: ![Step1](static_github/images/gmail_setup/gmail%233.png?raw=true)
+- **Step 4**: ![Step1](static_github/images/gmail_setup/gmail%234.png?raw=true)
 
 
 ---
